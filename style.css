@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    padding: 15px;
+    background-color: #EAE1CD;
+}
+
+header div{
+    font-weight: 600;
+    color:#fff;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: #EAE1CD;
+    font-weight: bold;
+}
+
+nav li{
+    display: inline;
+    margin: 0 10px;
+    line-height: 40px;
+}
+
+nav li:last-child{
+    margin-right: 20px;
+}
+
+nav ul{
+    margin: 0;
+}
+
+nav{
+    display: block;
+    text-align: right;
+    border-bottom: 1px solid #d8d8d8;
+    width: 100%;
+    height: 45px;
+}
+
+article{
+    text-align: center;
+    width: 100%;
+    margin: 70px 0;
+}
+
+article button {
+    margin: 30px;
+}
+
+.banner{
+    width: 100%;
+    height: 450px;
+    background-image: url('https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-advices-photos-157311319220529798.jpg/1920/none');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 85%;
+    overflow-y: hidden;
+    
+}
+
+.content{
+    padding: 160px 0;
+}
+
+.content :first-child{
+    font-size: 35px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.content :last-child{
+    color: #fff;
+    font-size: 15px;
+    margin: 10px auto;
+}
+
+section{
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    display: inline-block;
+}
+
+section > div {
+    margin: 2px;
+    text-align: center;
+}
+
+section :nth-child(2){
+    font-size: 20px;
+}
+
+section img {
+    width: 260px;
+    margin: 10px;
+}
+
+section img:hover{
+    opacity: 80%;
+}
+
+
+footer{
+    clear: both;
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+    background-color: #d8d8d8;
+    position: relative;
+    bottom: 0;
+}
+
+footer div{
+    clear: both;
+    text-align: center;
+    line-height: 50px;
+}  
+    
+    
+    
